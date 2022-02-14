@@ -34,6 +34,7 @@ const Header = styled.div`
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
+  padding:0 20px
   justify-content: center;
 `;
 const HeaderBar = styled.div`
@@ -112,6 +113,7 @@ const AccountInfo = styled.div`
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-wrao: wrap;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
